@@ -1,0 +1,56 @@
+.title {
+    font-size: 50px;
+    text-align: center;
+    -webkit-animation: title 1s ease-in-out infinite alternate;
+    -moz-animation: title 1s ease-in-out infinite alternate;
+    animation: title 1s ease-in-out infinite alternate;
+  }
+  
+  @keyframes title {
+    0%{
+
+      color: rgb(90, 73, 99);
+       
+    }
+    
+    100% {
+      text-shadow: 0 0 5px #C33BD6, 0 0 10px #C33BD6;
+    }
+}
+
+
+
+.password {
+    color:#23FBED;
+    text-align: center;
+    -webkit-animation: password 1s ease-in-out infinite alternate;
+    -moz-animation: password 1s ease-in-out infinite alternate;
+    animation: password 1s ease-in-out infinite alternate;
+  }
+  
+  @keyframes password {
+    0%{
+
+      color: rgb(89, 118, 121);
+       
+    }
+    
+    100% {
+      text-shadow: 0 0 5px #23FBED, 0 0 10px #23FBED;
+    }
+}
+  
+
+.loginButton {
+    border-color: #C33BD6;
+    font-family: "Harlow Solid";
+    background-color: #1E0045;
+    color:#34DE04;
+}
+.registerButton {
+    border-color: #C33BD6;
+    font-family: "Harlow Solid";
+    background-color: #1E0045;
+    color:#23FBED; 
+    align-content: right;
+}

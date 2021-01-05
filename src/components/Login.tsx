@@ -1,17 +1,24 @@
 import React from 'react';
-
 import './login.css';
 
-function Login() {
+
+
+
+const Login: React.FC = () => {
+
   return (
     <div className="Login">
+      
         <div className="title">Peekify</div>
-        <label >User Name<br/>
-        <input type="text" id='username'></input>
-        </label><br />
-        <label >Password<br/> 
-        <input type="text" id='password'></input>
-        </label>
+            <label className='password'>Account Name<br/>
+            <input type="text"></input>
+            </label><br />
+            <label className='password'>Password<br/> 
+            <input type="text" ></input>
+            </label>
+            <br />
+        <button className='loginButton'>Login</button>
+        <button className='registerButton'>Register</button>
         
     </div>
   );
