@@ -43,10 +43,88 @@
 
 .loginButton {
     border-color: #C33BD6;
-    font-family: "Harlow Solid";
+
     background-color: #1E0045;
     color:#34DE04;
 }
+:root {
+	--white:#f1f1f1
+}
+.loginButton {
+    font-family: "Harlow Solid";
+
+	color: var(--white);
+    border-color: #C33BD6;
+    background-color: #1E0045;
+    color:#34DE04;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+.loginButton {
+	opacity: 1;
+	animation: flicker 5s linear  reverse infinite;
+}
+.loginButton::after {
+	content: '';
+	width: 150%;
+	-webkit-box-shadow: -35px 0px 60px 8px rgba(255,255,255,1);
+	-moz-box-shadow: -35px 0px 60px 8px rgba(255,255,255,1);
+	box-shadow: -35px 0px 60px 8px rgba(255,255,255,1);
+}
+
+
+
+
+
+@keyframes flicker {
+	0% {
+		opacity: 0.4;
+	}
+	5% {
+		opacity: 0.5;
+	}
+	10% {
+		opacity: 0.6;
+	}
+	15% {
+		opacity: 0.85;
+	}
+	25% {
+		opacity: 0.5;
+	}
+	30% {
+		opacity: 1;
+	}
+	35% {
+		opacity: 0.1;
+	}
+	40% {
+		opacity: 0.25;
+	}
+	45% {
+		opacity: 0.5;
+	}
+	60% {
+		opacity: 1;
+	}
+	70% {
+		opacity: 0.85;
+	}
+	80% {
+		opacity: 0.4;
+	}
+	90% {
+		opacity: 0.5;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+
+
 .registerButton {
     border-color: #C33BD6;
     font-family: "Harlow Solid";
