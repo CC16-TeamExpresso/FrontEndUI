@@ -1,6 +1,4 @@
-.App {
-  text-align: center;
-}
+
 
 .App-logo {
   height: 40vmin;
@@ -13,15 +11,16 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
+.App {
+  background-color: #1E0045;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #C33BD6;
+  font-family: "Harlow Solid";
 }
 
 .App-link {
@@ -36,3 +35,5 @@
     transform: rotate(360deg);
   }
 }
+
+
