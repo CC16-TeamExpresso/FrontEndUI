@@ -38,9 +38,9 @@ export default function Register() {
 				></input>
 			</label>
 			<br />
-			<Button variant="contained" onClick={registerUser}>
+			<button className="register-button" onClick={registerUser}>
 				Register
-			</Button>
+			</button>
 		</div>
 	);
 }
