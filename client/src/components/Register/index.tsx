@@ -8,6 +8,7 @@ export default function Register() {
 	async function registerUser() {
 		const res = await fetch('http://localhost:8050/api/register', {
 			method: 'POST',
+			headers: { 'content-type': 'application/json' },
 			body: JSON.stringify({
 				email,
 				password,
