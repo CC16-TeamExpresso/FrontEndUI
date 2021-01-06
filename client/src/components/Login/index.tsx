@@ -1,20 +1,20 @@
 import React, { useState } from 'react';
 import { TextField, Button } from '@material-ui/core';
+import { apiCall } from '../../utility';
 
 export default function Register() {
 	const [email, setEmail] = useState('');
 	const [password, setPassword] = useState('');
 
 	async function loginUser() {
-		const res = await fetch('http://localhost:8050/api/login', {
-			method: 'POST',
-			headers: { 'content-type': 'application/json' },
-			body: JSON.stringify({
-				email,
-				password,
-			}),
-		}).then((t) => t.json());
-		console.log(res);
+		const res = await apiCall('/api/login', { email, password });
+
+		if (res.status === 'ok') {
+			localStorage.setItem('token', res.data);
+			alert('You are logged in');
+		} else {
+			alert(res.error);
+		}
 	}
 
 	return (

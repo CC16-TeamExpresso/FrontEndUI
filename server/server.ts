@@ -3,8 +3,11 @@ import bodyParser from 'body-parser';
 import cors from 'cors';
 import mongoose from 'mongoose';
 import User from './models/user';
+import jwt from 'jsonwebtoken';
 
 const app = express();
+
+const JWT_SECRET_TOKEN = 'qwgbypaoosixakkknbyyuyumnnusfhdsknfcksdnvcduhvjdfnajdhjkdlfjhjd';
 
 mongoose.connect('mongodb://localhost:27017/peekify');
 
@@ -48,7 +51,9 @@ app.post('/api/login', async (req, res) => {
 		return res.json({ status: 'error', error: 'User Not Registered' });
 	}
 
-	return res.json({ status: 'ok', data: user });
+	const payload = jwt.sign({ email }, JWT_SECRET_TOKEN);
+
+	return res.json({ status: 'ok', data: payload });
 });
 
 app.listen(8050);
