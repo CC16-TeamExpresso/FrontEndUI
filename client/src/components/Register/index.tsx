@@ -21,7 +21,7 @@ export default function Register() {
 		console.log(res);
 	}
 
-	return (
+	return (  
 
 		<div className="Login">
       	<img className='logo 'src={logo} alt="logo"></img>
