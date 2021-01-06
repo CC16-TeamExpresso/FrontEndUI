@@ -1,10 +1,9 @@
-import React, { useState } from 'react';
-import { TextField, Button } from '@material-ui/core';
+import React from 'react';
 
-export default function Register() {
-	return (
-		<div>
-			<h1>Profile</h1>
-		</div>
-	);
+import './App.css';
+
+function Profile() {
+	return <div className="App"></div>;
 }
+
+export default Profile;
