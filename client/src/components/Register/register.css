@@ -3,9 +3,30 @@
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    align-items: center;
+
     justify-content: center;
     font-size: calc(10px + 2vmin);
     color: #C33BD6;
     font-family: "Harlow Solid";
+  }
+
+  .register-fields {
+      color:#C33BD6;
+
+
+  }
+.email-label {
+    display:flex;
+
+
+}
+.password-label {
+    display:flex;
+}
+
+  .email-field {
+    font-size: 100%;
+  }
+  .password-field {
+    font-size: 100%;
   }
