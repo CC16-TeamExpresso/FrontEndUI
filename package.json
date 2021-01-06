@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "raect": "^1.0.4",
-    "react": "^17.0.1"
+    "react": "^17.0.1",
+    "react-image": "^4.0.3"
   }
 }

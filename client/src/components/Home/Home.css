@@ -14,3 +14,8 @@
     text-align: center;
 
   }
+
+  .logo {
+      display:relative;
+      width: 200px;
+  }
