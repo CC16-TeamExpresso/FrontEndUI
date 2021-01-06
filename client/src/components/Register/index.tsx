@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
-import { TextField, Button } from '@material-ui/core';
+
 import './register.css'
+import logo from '../images/logo.png';
+declare module '*.png';
 
 
 
@@ -22,7 +24,7 @@ export default function Register() {
 	return (
 
 		<div className="Login">
-      
+      	<img className='logo 'src={logo} alt="logo"></img>
         <div className="title">Peekify</div>
             <label className='password'>Email<br/>
             <input type="text"
@@ -39,9 +41,9 @@ export default function Register() {
 								placeholder="p@$$w0rd"></input>
             </label>
             <br />
-			<Button  variant="contained" onClick={registerUser}>
+			<button  className="register-button" onClick={registerUser}>
 					Register
-				</Button>
+				</button>
         
 
 
