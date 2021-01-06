@@ -1,5 +1,8 @@
 import React, { useState } from 'react';
 import { TextField, Button } from '@material-ui/core';
+import './register.css'
+
+
 
 export default function Register() {
 	const [email, setEmail] = useState('');
@@ -17,6 +20,7 @@ export default function Register() {
 	}
 
 	return (
+		<div className='register'>
 		<div className="form">
 			<h1>Register</h1>
 			<form className="register-fields">
@@ -40,6 +44,7 @@ export default function Register() {
 					Register
 				</Button>
 			</form>
+		</div>
 		</div>
 	);
 }
