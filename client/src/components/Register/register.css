@@ -24,7 +24,6 @@
   display:flex;
 }
 
-<<<<<<< HEAD
   .email-field {
     font-size: 100%;
     border-radius: 5px;
@@ -50,30 +49,3 @@
     font-family: "Harlow Solid";
     background-color: #1E0045;
   }
-=======
-.email-field {
-  font-size: 100%;
-  border-radius: 5px;
-  color: #61dafb;
-
-  border: 5px solid #C33BD6;
-  background-color: #1E0045;
-
-}
-.password-field {
-  font-size: 100%;
-  border-radius: 5px;
-  color: #61dafb;
-  border: 5px solid #C33BD6;
-  background-color: #1E0045;
-}
-.register-button {
-  font-size: 50px;
-  display:block;
-  color: #61dafb;
-  border: 3px solid #C33BD6;
-  text-align: center;
-  font-family: "Harlow Solid";
-  background-color: #1E0045;
-}
->>>>>>> 076725bcd1449e021a13eb6190f0418ebdc9b5fa
