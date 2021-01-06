@@ -1,20 +1,21 @@
 import React from 'react';
 import { Button } from '@material-ui/core';
 import { Link } from 'react-router-dom';
-
+import './Home.css'
 
 export default function Home() {
 	return (
 		<div className="App">
 			<header className="App-header">
-				<h1>peekify</h1>
+				<h1 className="title">Peekify</h1>
 				<div className="buttons">
-					<Button variant="contained" component={Link} to="/login">
+					<Link className='login-button'  to="/login">
 						Login
-					</Button>
-					<Button variant="contained" component={Link} to="/register">
+					</Link>
+					<br/>
+					<Link className='register-button' to="/register">
 						Register
-					</Button>
+					</Link>
 				</div>
 			</header>
 		</div>
