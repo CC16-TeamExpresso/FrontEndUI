@@ -1,3 +1,20 @@
+<<<<<<< HEAD
+import React , {useState} from 'react';
+
+import './login.css';
+import logo from '../images/logo.png';
+declare module '*.png';
+
+function Login() {
+	const [email, setEmail] = useState<string>('');
+	const [password, setPassword] = useState<string>('');
+
+
+	async function loginUser() {
+		const res = await fetch
+	}
+
+=======
 import React, { useState } from 'react';
 import './login.css'
 import { apiCall } from '../../utility';
@@ -19,6 +36,7 @@ export default function Register() {
 		}
 	}
 
+>>>>>>> 076725bcd1449e021a13eb6190f0418ebdc9b5fa
 	return (
 		<div className="Login">
       	<img className='logo 'src={logo} alt="logo"></img>
