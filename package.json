@@ -1,6 +1,6 @@
 {
-  "dependencies": {
-    "react": "^17.0.1",
-    "react-image": "^4.0.3"
-  }
+	"dependencies": {
+		"react": "^17.0.1",
+		"react-image": "^4.0.3"
+	}
 }
