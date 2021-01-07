@@ -9,6 +9,7 @@ const cors_1 = __importDefault(require("cors"));
 const mongoose_1 = __importDefault(require("mongoose"));
 const user_1 = __importDefault(require("./models/user"));
 const jsonwebtoken_1 = __importDefault(require("jsonwebtoken"));
+const websocket_1 = __importDefault(require("./websocket"));
 const app = express_1.default();
 const JWT_SECRET_TOKEN = 'qwgbypaoosixakkknbyyuyumnnusfhdsknfcksdnvcduhvjdfnajdhjkdlfjhjd';
 mongoose_1.default.connect('mongodb://localhost:27017/peekify');
@@ -46,3 +47,4 @@ app.post('/api/login', async (req, res) => {
     return res.json({ status: 'ok', data: payload });
 });
 app.listen(8050);
+websocket_1.default();

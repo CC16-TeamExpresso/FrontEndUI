@@ -4,6 +4,7 @@ import cors from 'cors';
 import mongoose from 'mongoose';
 import User from './models/user';
 import jwt from 'jsonwebtoken';
+import setupWebSocketServer from './websocket';
 
 const app = express();
 
@@ -57,3 +58,4 @@ app.post('/api/login', async (req, res) => {
 });
 
 app.listen(8050);
+setupWebSocketServer();
