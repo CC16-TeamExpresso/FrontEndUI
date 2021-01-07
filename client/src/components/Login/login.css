@@ -7,7 +7,7 @@
     justify-content: center;
     font-size: calc(10px + 2vmin);
     color: #C33BD6;
-    font-family: "Harlow Solid";
+    font-family: 'Harlow Solid Italic', sans-serif;
   }
   .login-button {
     font-size: 50px;
@@ -15,6 +15,6 @@
     color: #34DE04;
     border: 3px solid #C33BD6;
     text-align: center;
-    font-family: "Harlow Solid";
+    font-family: 'Harlow Solid Italic', sans-serif;
     background-color: #1E0045;
   }

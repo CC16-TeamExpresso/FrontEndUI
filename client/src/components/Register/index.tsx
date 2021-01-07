@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
-
+import './register.css';
+import { apiCall } from '../../utility';
 import './register.css'
 import logo from '../images/logo.png';
 declare module '*.png';
 
 
-import './register.css';
-import { apiCall } from '../../utility';
+
 
 export default function Register() {
 	const [email, setEmail] = useState('');

@@ -1,3 +1,5 @@
+@import url('http://fonts.cdnfonts.com/css/harlow-solid-italic');
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -18,7 +20,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: #C33BD6;
-  font-family: "Harlow Solid";
+  font-family: 'Harlow Solid Italic', sans-serif;
 }
 
 .App-link {
@@ -82,8 +84,9 @@
 :root {
 --white:#f1f1f1
 }
+/* flickering title */
 .title {
-  font-family: "Harlow Solid";
+  font-family: 'Harlow Solid Italic', sans-serif;
 font-size:70px;
 color: var(--white);
 
