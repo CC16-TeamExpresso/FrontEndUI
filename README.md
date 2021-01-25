@@ -64,14 +64,21 @@ You can also press the heart icon to send a "like".</p>
 <p style="margin-left: 2em" >You can also listen to the music/podcast other users are playing.</p>
 <p align="center"><img src="./img/comment.png" width="200px"></p>
 
-### 5. Menu button
+### 5. Peek other users' playing history and follow them
+
+<p style="margin-left: 2em" >In <a href="post-section">the post section</a>, click on <i>the name of any user</i> in  to see the history of the music/podcast they shared.</p> 
+<p align="center"><img src="./img/name.png" width="200px"></p>
+<p style="margin-left: 2em" >Click on "Peek" above the user's history to follow the user. "Peek" will change to "Peeking" for users you follow. See also <a href="#peeking-list">Peeking List"</a>.
+<p align="center"><img src="./img/follow.png" width="200px"></p>
+
+### 6. Menu button
 <p style="margin-left: 2em" >If you press the "menu" button at the left top of the screen, you will see four buttons.</p>
 <p align="center"><img src="./img/menu.png" width="200px"></p>
 <p style="margin-left: 1.5em; text-indent: -1.5em;">(a)   "Profile" -- Press "Profile" to go to your profile page, where you find the list of the music/podcast you shared along with comments and likes other users sent. </p>
 <p align="center"><img src="./img/profile1.png" width="200px">
 <img src="./img/profile2.png" width="200px"></p>
 <p style="margin-left: 1.5em; text-indent: -1.5em;" id="refresh">(b) "Refresh" -- Press "Refresh" to refresh data on the app. You can use this button when you have moved to another location. That will reorder other users in <a href="#post-section">the post section</a> according to their closeness to your current location.</p>
-<p style="margin-left: 1.5em; text-indent: -1.5em;">(c) "Peeking list" -- This is for future enhancement.</p>
+<p style="margin-left: 1.5em; text-indent: -1.5em;" id="peeking-list">(c) "Peeking list" -- Press "Peeking list" to see only the users you are peeking at (i.e. following) in <a href="#post-section">the post section</a>.</p>
 <p style="margin-left: 1.5em; text-indent: -1.5em;">(d) "range" and "KM Radius" -- You can narrow down the number of users in <a href="post-section">the post section</a> by setting the range here. For example, entering 10 and pressing "range" would reduce the users to those within the radius of 10 kilometers around you.</p>
 <p align="center"><img src="./img/range.png" width="200px"/></p>
 <p style="margin-left: 1.5em" > The "range" function works to narrow down the range. If you want to go back to a broader range, hit <a href="refresh">"Refresh"</a> to show the users in the broadest possible coverage and then work from there.</p>
