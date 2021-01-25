@@ -11,7 +11,7 @@
 
 ## Features
 
- - You can peek at the music people are playing.
+ - You can peek at the music people are playing.:heart:
  - You can check your music history. That is a list of songs you have listened to.
  - You can see other people's music history, too.
  - You can send a brief message and "like" to the music other people are playing.
