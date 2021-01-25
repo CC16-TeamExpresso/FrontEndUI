@@ -85,7 +85,7 @@ You can also press the heart icon to send a "like".</p>
 <p style="margin-left: 1.5em; text-indent: -1.5em;" id="peeking-list">(c) "Peeking list" -- Press "Peeking list" to see only the users you are peeking at (i.e. following) in <a href="#post-section">the post section</a>.</p>
 <p style="margin-left: 1.5em; text-indent: -1.5em;">(d) "range" and "KM Radius" -- You can set the range in which the users who appear in <a href="post-section">the post section</a> be. For example, entering 10 and pressing "range" would show the users within the radius of 10 kilometers around you.</p>
 <p align="center"><img src="./img/range.png" width="200px"/></p>
-
+ 
 ## Technolgy used
 
 <p align="center"><img src="./img/peekifyTechStack.png" width="100%"></p>

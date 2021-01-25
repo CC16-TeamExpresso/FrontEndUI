@@ -4,7 +4,7 @@
 <br>
 <p align="center"><img src="./img/peekify.ico" width="200px"></p>
 <br>
-<p align="center"><i>隣にいる人は何を聴いているのか、のぞいてみたい:eyes:と思ったこと、ありませんか？</i></p>
+<p align="center"><i>隣にいる人は何を聴いているのか、のぞいてみたいと思ったこと、ありませんか？</i></p>
 
 <p align="center"><i>好奇心で人々をつなぐのが私たちのミッションです。</i></p> 
 </div>
