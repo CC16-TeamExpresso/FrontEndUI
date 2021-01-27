@@ -110,15 +110,15 @@
 
 ## 作成者
 
-- [Franckgaud](https://github.com/Franckgaud)
+### <img src="img/francis.jpeg" width="50px" style="border-radius:50%"> Francis [@Franckgaud](https://github.com/Franckgaud)
 
-- [miomaeshima](https://github.com/miomaeshima)
+### <img src="img/misho.jpeg" width="50px" style="border-radius:50%"> Misho [@miomaeshima](https://github.com/miomaeshima)
 
-- [oneatatimet](https://github.com/oneatatimet)
+### <img src="img/nada.jpeg" width="50px" style="border-radius:50%">  Nada [@oneatatimet](https://github.com/oneatatimet)
 
-- [Kaisei-Suzuki1990](https://github.com/Kaisei-Suzuki1990)
+### <img src="img/kaisei.jpeg" width="50px" style="border-radius:50%">  Kaisei [@Kaisei-Suzuki1990](https://github.com/Kaisei-Suzuki1990)
 
-- [SoshiK](https://github.com/SoshiK)
+### <img src="img/soshi.jpeg" width="50px" style="border-radius:50%">  Soshi [@SoshiK](https://github.com/SoshiK)
 
 ## ライセンス
 
